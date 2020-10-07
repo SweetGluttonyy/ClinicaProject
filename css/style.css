@@ -13,21 +13,32 @@ body{
 */
 
 hr.linea{
+
+    margin-top:5%;
     background: rgb(225, 225, 225);
 }
 
 
-span{
+div address span{
 
     font-size: 15pt;
     font-weight: bolder;
+    color: rgb(22, 207, 236);
     
 }
 
 div.ContactInfo{
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    /*background-image: url("/img/casta.png");*/
+}
+
+img.img-casa{
+    position: relative;
+    bottom: 15.5px;
+    right: 2.5px;
 }
 
 div.copyrightside{
@@ -38,3 +49,116 @@ div.copyrightside{
 ul.nav.nav-tabs{
     margin-bottom: 30px;
 }
+
+div.contenedor1{
+
+    position: relative;
+    height: 510px;
+    width: 300px;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    background: rebeccapurple;
+    border-style: none;
+    left: 5%;
+    margin-bottom: 100px;
+    display: inline-block;
+    margin-right: 15%;
+}
+
+div.center-container{
+
+    border-style: none ;
+    padding: 15px;
+    padding-top: 5%;
+    height: 700px;
+    width: 100%;
+    background-color: rgb(145, 223, 235);
+}
+
+div.contenedor2{
+    display: inline-block;
+    position: relative;
+    height: 510px;
+    width: 300px;
+
+    text-align: justify;
+    color: white;
+    background: palevioletred;
+    border-style: none;
+    left: 5%;
+    margin-bottom: 30%;
+    
+
+    
+}
+
+div.contenedor2 p{
+    padding: 20px;
+}
+
+div.contenedor3{
+    display: inline-block;
+    position: relative;
+    height: 510px;
+    width: 300px;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    background: aquamarine;
+    border-style: none;
+    left: 5%;
+    margin-left: 15%;
+}
+
+span.security {
+
+    font-weight: bolder;
+}
+    
+
+
+span.rank{
+    font-weight: bolder;
+}
+
+span.trust{
+    font-weight: bolder;
+}
+
+
+/*<div class="row"> 
+<div class="col-md-4">
+
+    <!--<img alt="Bootstrap Image Preview" src="img/seguridad.jpg heigth = "100" width = "100"">!-->
+    <h2>
+        Seguridad
+    </h2>
+    <p>
+        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    </p>
+
+</div>
+<div class="col-md-4">
+    <!--<img alt="Bootstrap Image Preview" src="img/confianza.jpg">!-->
+    <h2>
+        Confianza
+    </h2>
+    <p>
+        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    </p>
+    
+</div>
+
+<div class="col-md-4">
+    <!--<img alt="Bootstrap Image Preview" src="img/clinica.jpg">!-->
+    <h2>
+        Calidad
+    </h2>
+    <p>
+        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+    </p>
+        
+</div> 
+
+*/

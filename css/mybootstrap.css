@@ -1808,6 +1808,7 @@ pre code {
 		max-width: 25%
 	}
 	.col-md-4 {
+		background: rgb(36, 143, 160);
 		-webkit-box-flex: 0;
 		-webkit-flex: 0 0 33.333333%;
 		-ms-flex: 0 0 33.333333%;
@@ -4257,10 +4258,14 @@ tbody.collapse.show {
 }
 
 .nav-tabs {
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	border-bottom: 1px solid #ddd
 }
 
 .nav-tabs .nav-item {
+	
 	margin-bottom: -1px
 }
 
@@ -4283,7 +4288,12 @@ tbody.collapse.show {
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-	color: red;
+	
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	color: black !important;
 	background-color: #fff;
 	border-color: #ddd #ddd #fff
 }
